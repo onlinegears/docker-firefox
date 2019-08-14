@@ -1,6 +1,6 @@
 FROM onlinegears/base:latest
 
-RUN apt update && apt install -y \
+RUN apt-get update && apt-get install -y \
 	dbus-x11 \
 	locales locales-all \
 	firefox firefox-locale-ja \
