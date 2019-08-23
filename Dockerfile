@@ -5,4 +5,4 @@ RUN apt-get update && apt-get install -y \
 	locales locales-all \
 	firefox firefox-locale-ja \
 	fonts-noto \
-	&& apt clean
+	&& apt-get clean
